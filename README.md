@@ -1,8 +1,9 @@
 # Bayesian-Modelling-of-Alluvial-Diagram-Complexity
 Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 
-Factor Analysis Results
+## Factor Analysis Results
 
+### Study 1 Tasks
 
 | Task  | PCA | Unrotated FA | Varimax FA |
 | ------------- | ------------- | ------------- | ------------- |
@@ -11,7 +12,7 @@ Factor Analysis Results
 | Max. Flow  | -0.52775928  | -0.37506516 | -0.37506516 |
 | Max. Activity  | -0.4728622  | -0.31203823 | -0.31203823 |
 
-
+![Study 1 Task FA](/images/factor_task_s1.png)
 
   
  
