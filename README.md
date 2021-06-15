@@ -78,4 +78,4 @@ S(a)=w<sub>1</sub>t<sub>a</sub> + w<sub>2</sub>e<sub>a</sub> + w<sub>3</sub>f<su
     - There must exist at least 2 timesteps 
     - There must exist least 2 groups and 2 timesteps to have 1 flow
     - There must exist at least 2 flows to have a flow crossing
-- We multiply/divide the conditional probabilities among features by the corresponding w<sub>i</sub>'s of the considered features (based on whether they are the conditioning/preceding variable) when calculating P(Comp<sub>a</sub>/t<sub>a</sub>,e<sub>a</sub>,f<sub>a</sub>,c<sub>a</sub>) to account for the varying contributions of each feature to determining complexity.
+- We multiply or divide the conditional probabilities among features by the corresponding w<sub>i</sub>'s of the considered features (based on whether they are the conditionin or preceding variables respectively) when calculating P(Comp<sub>a</sub>/t<sub>a</sub>,e<sub>a</sub>,f<sub>a</sub>,c<sub>a</sub>) to account for the varying contributions of each feature to determining complexity.
