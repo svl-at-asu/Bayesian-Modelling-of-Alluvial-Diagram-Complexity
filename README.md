@@ -65,10 +65,17 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 
 \# Flow Crossings = c<sub>a</sub>
 
+Complexity Class=Comp<sub>a</sub>
+
 ### Complexity 
 
 S(a)=w<sub>1</sub>t<sub>a</sub> + w<sub>2</sub>e<sub>a</sub> + w<sub>3</sub>f<sub>a</sub> + w<sub>4</sub>c<sub>a</sub>
 
-### Prior Probabilities
+### Prior
 
-P(S(a)/t<sub>a</sub>,e<sub>a</sub>,f<sub>a</sub>,c<sub>a</sub>)
+- For each feature, we categorize the value range into 3 bins, each with equal probability of occuring (0.33)
+- We impose additional constraints based on basic feature dependencies when calculating joint and conditional probailities between features:
+    - There must exist at least 2 timesteps 
+    - There must exist least 2 groups and 2 timesteps to have 1 flow
+    - There must exist at least 2 flows to have a flow crossing
+- We divide the conditional probabilities among features by (w<sub>i</sub>*feature<sub>a</sub>) when calculating P(Comp<sub>a</sub>)/t<sub>a</sub>,e<sub>a</sub>,f<sub>a</sub>,c<sub>a</sub>) to account for the varying contributions of each feature to determining complexity.
