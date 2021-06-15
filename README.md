@@ -40,7 +40,7 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 | Flow Crossings  | 0.86029029 | 0.0 | 0.0 | 0.0 |
 | Groups  | 0.93077178 | 0.0 | 0.0 | 0.0 |
 
-<img src="/images/factor_feat.png" width="600" height="300">
+<img src="/images/factor_feat.png" width="900" height="300">
 
 
   
