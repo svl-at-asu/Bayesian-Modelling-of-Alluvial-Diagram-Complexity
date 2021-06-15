@@ -46,7 +46,7 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 
 || Visual Feature | Number of Timesteps || Number of Flows || Number of Flow Crossings || Number of Entities || Summated Feature (F) ||
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Task ID | Task Description | beta | r2 | beta | r2 | beta | r2 | beta | r2 | beta | r2 |
+| Task ID | Task Description | $beta$ | r2 | beta | r2 | beta | r2 | beta | r2 | beta | r2 |
 | T1 | Max. Timestep | 1.096 | 0.582 | 1.374 | 0.634 | 1.356 | 0.587 | 1.185 | **0.668** | 1.280 | 0.637 |
 | T2 | Max. Entity | 0.758 | 0.566 | 0.955 | 0.624 | 0.943 | 0.578 | 0.814 | **0.641** | 0.886 | 0.621 |
 | T3 | Max. Flow | 1.004 | 0.639 | 1.242 | 0.678 | 1.212 | 0.614 | 1.075 | **0.720** | 1.160 | 0.684 |
@@ -57,13 +57,18 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 
 ## Baeysian Prior Formation
 
-### Let:
-
 \# Timesteps = t<sub>a</sub>
+
 \# Entities = e<sub>a</sub>
+
 \# Flows = f<sub>a</sub>
+
 \# Flow Crossings = c<sub>a</sub>
 
-#### Complexity 
+### Complexity 
 
-S=w<sub>1</sub>t<sub>a</sub> + w<sub>2</sub>e<sub>a</sub> + w<sub>3</sub>f<sub>a</sub> + w<sub>4</sub>c<sub>a</sub>
+S(a)=w<sub>1</sub>t<sub>a</sub> + w<sub>2</sub>e<sub>a</sub> + w<sub>3</sub>f<sub>a</sub> + w<sub>4</sub>c<sub>a</sub>
+
+### Prior Probabilities
+
+P(S(a)/t<sub>a</sub>,e<sub>a</sub>,f<sub>a</sub>,c<sub>a</sub>)
