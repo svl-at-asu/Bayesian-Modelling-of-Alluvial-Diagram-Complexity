@@ -47,7 +47,7 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 || Visual Feature | Number of Timesteps | Number of Flows | Number of Flow Crossings | Number of Entities | Summated Feature (F) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Task ID | Task Description | |||||
-| T1 | Max. Timestep | |||||
+| T1 | Max. Timestep | bb |||||
 | T2 | Max. Group | |||||
 | T3 | Max. Flow | |||||
 | T4 | Max. Activity | |||||
