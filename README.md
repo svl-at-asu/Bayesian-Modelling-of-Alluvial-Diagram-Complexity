@@ -12,7 +12,9 @@ Github repository for Bayesian Modelling of Alluvial Diagram Complexity
 | Max. Flow  | -0.52775928  | -0.37506516 | -0.37506516 |
 | Max. Activity  | -0.4728622  | -0.31203823 | -0.31203823 |
 
-![Study 1 Task FA](/images/factor_task_s1.png){:height="700px" width="400px"}
+![Study 1 Task FA](/images/factor_task_s1.png)
+
+<img src="/images/factor_task_s1.png" width="100" height="100">
 
   
  
